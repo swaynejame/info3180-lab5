@@ -66,7 +66,7 @@ def login():
 
                 # remember to flash a message to the user
                 flash('Logged in successfully.', 'success')
-
+                
                 return redirect(url_for('secure_page'))  # they should be redirected to a secure-page route instead
 
             else:
